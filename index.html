@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+    .ticker-wrapper{
+      
+      max-width: 800px;
+      margin:auto ;
+      margin-left: 450px;
+      margin-bottom: 0px;
+  }
+ .heading{
+      display: block;
+      position: absolute;
+      font-style: italic;
+      font-size: 40px;
+      font-weight: 500px;
+      background-color: #fff ;
+      color: black;
+      text-transform: uppercase;
+      padding: 18 px;
+      letter-spacing: 3px;
+      z-index: 2;
+  }
+  /*.heading::after, 
+  .heading::before{
+      content:"";
+      width: 0 ;
+      position: absolute;
+      border-width: 78px;
+      border-style: solid;
+      top: 0;
+      z-index: -1;
+  }
+  .heading::before{
+      border-color: #fff transparent transparent transparent;
+      right: -78px;
+  }
+  .heading::after{
+     border-color: transparent  transparent  #fff transparent;
+      left: -78px;
+      top: -78px;
+  }*/
+  .text-update{
+      height: 40px;
+      background-color:transparent;
+      overflow: hidden;
+      position: relative;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #ffff;
+      font-size: 20px;
+      font-weight: 200px;
+      display: flex;
+      left: -40px;
+      margin-left: 40px;
+  }
+  .text-update p{
+      position: absolute;
+      width: 150%;
+      margin: 0px;
+      text-align: left;
+      font-weight: 200;
+      transform: translateX(100%);
+      animation: moving 7s linear infinite;           
+   }
+   #para{
+     font-size: 30px;
+     margin-top: 8px;
+     text-transform: capitalize;
+   }
+
+  @keyframes moving{
+      0%{
+          transform: translateX(100%);
+      }
+      100%{
+          transform: translateX(-100%)  
+      }
+  }   
+  h4{
+    text-align: center;
+    color: #fff;
+    word-spacing: 3px;
+    font-size: 30px;
+    margin-bottom: 90px;
+    
+    
+  }
+  /* this is the button css*/
+  .button {
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  height: 40px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 15px;
+  display: inline;
+}
+a{
+font-size: 17px;
+font-weight:20px ;
+text-decoration: none;
+color:black;
+font-style: oblique;
+}
+
+.button a {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button a:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover{
+  background-image: linear-gradient(to right,yellow, red, green );
+}
+.button:hover a {
+  padding-right: 25px;
+}
+
+.button:hover a:after {
+  opacity: 1;
+  right: 0;
+}
+ </style>
+</head>
+<body>
+ <div class="lang">
+      <a href="" id="lang1">EN</a>
+      <a href="" id="lang2">FR</a>
+ </div>
+  <div class="content">
+    <div  class="ticker-wrapper">
+      <div class="heading"></div>
+      <div class="text-update">
+          <p id="para">
+           Our website is under Redesigning
+          </p>
+      </div>
+     
+  </div>
+  <button class="button"><a href="">Register now</a></button>
+     <!--<ul> <li><a href="" class="links" >Register</a></li>
+      <li> <a href="channel.html" class="links">Channels</a> </li>
+      <li><a href="Gallery.html"  class="links">Gallery</a></li>
+      <li><a href="videos.html" class="links" >Videos</a></li>
+       <li><a href="" class="links">Home</a></li>
+      <li><a href="about.html"  class="links">About us</a></li>
+    </ul>-->
+
+    
+    <img src="LOGO. 06psd.png" alt="" class="logo">
+     <footer>
+       <h2> <span>c</span>ouples <span>c</span>orner 237</h2>
+     <div>
+      <h4><i>Building Relationships </i></h4>
+      <a href="https://www.facebook.com/couplescorner237" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/Couplescorner21" class="fa fa-twitter"></a>
+      <a href="https://www.youtube.com/channel/UCoRnxL1voP5jzjR23SBvroA" class="fa fa-youtube"></a>
+      <a href="https://wa.me/message/GPI4D3IMQ56QM1" class="fa fa-whatsapp"></a>
+      <a href="https://www.instagram.com/couplescorner237/" class="fa fa-instagram"></a>
+    </footer>
+  </div>
+    </div>
+   
+
+  
+   
+
+</body>
+</html><ul>
+      

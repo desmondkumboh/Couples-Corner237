@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+    <style>
+        
+        .ticker-wrapper{
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+            padding-top: 200px;
+        }
+       .heading{
+            display: block;
+            position: absolute;
+            font-style: italic;
+            font-size: 40px;
+            font-weight: 700px;
+            background-color: #e60000 ;
+            color: black;
+            text-transform: uppercase;
+            padding: 15 px;
+            letter-spacing: 3px;
+            z-index: 2;
+        }
+        .heading::after, 
+        .heading::before{
+            content:"";
+            width: 0 ;
+            position: absolute;
+            border-width: 78px;
+            border-style: solid;
+            top: 0;
+            z-index: -1;
+        }
+        .heading::before{
+            border-color: #e60000 transparent transparent transparent;
+            right: -78px;
+        }
+        .heading::after{
+           border-color: transparent  transparent #e60000 transparent;
+            left: -78px;
+            top: -78px;
+        }
+        .text-update{
+            height: 70px;
+            background-color: blue;
+            overflow: hidden;
+            position: relative;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #ffff;
+            font-size: 10px;
+            font-weight: 200px;
+            display: flex;
+            align-items: center;
+            left: 12px;
+        }
+        .text-update p{
+            position: absolute;
+            width: 150%;
+            margin: 0px;
+            text-align: left;
+            font-weight: 200;
+            transform: translateX(100%);
+            animation: moving 25s linear infinite;           
+         }
+
+        @keyframes moving{
+            0%{
+                transform: translateX(100%);
+            }
+            100%{
+                transform: translateX(-100%)  
+            }
+        }    
+    </style>
+</head>
+<body>
+    <div  class="ticker-wrapper">
+        <div class="heading">NEWS</div>
+        <div class="text-update">
+            <p>
+                chop life before life chop you kljkjghfkihdfi bvyifildfsbvjkgdhSNHbvshh
+            </p>
+        </div>
+    </div>
+</body>
+</html>

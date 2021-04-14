@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+.content{
+  
+    background-image:linear-gradient(to right, green, red , yellow);
+    height: 600px;
+    display: inline-block;
+    width: 100%;
+    
+}
+.logo{
+    border-radius: 170px;
+    height: 150px;
+}
+ul li{
+    padding: 8px;
+   
+    border-radius: 10px; 
+    background-color:transparent;
+    margin-bottom: 30px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+.links{
+    float: right;
+    text-decoration: none;
+     padding: 5px;
+     display: inline;
+     color:white;
+     margin-right: 40px;
+     margin-top: 80px; 
+     font-size: 20px;
+}
+.links:hover{
+    color:rgb(69, 11, 71);
+    background-color:#06f7f7 ;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+ .lang{
+    background-color:white;
+    display: block;
+    margin-bottom: px;  
+    justify-content: center;
+ }
+ #lang2{
+     color: #06f7f7;
+     text-decoration: none;
+     font-size:20px ;
+     align-content: center;
+ }
+ #lang1{
+    color: #1672be; 
+    text-decoration: none;
+    font-size: 20px;
+    align-content: center;
+    margin-left: 500px;
+    border-right: 5px solid black;
+ }
+ #lang1:hover{
+    border: none;
+    background-color: #1dc4c4;
+    border-radius: 10px;
+    padding: 6px;
+ }
+ #lang2:hover{
+    background-color:#1dc4c4;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+ }
+h2{
+    text-align:center;
+    color:white;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-shadow: 0 0 6px #FF0000, 0 0 20px #0000FF;
+}
+span{
+    font-size: 150px;
+    color:white ;
+}
+p{
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+  padding-bottom:20px ;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px 1px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 50px;
+    box-shadow: 0px 5px 20px 5px;
+    float: right;
+    
+  }
+  .fa:hover{
+    width: 40px;
+    height: 40px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-right: 25px;
+  }
+  .fa-whatsapp{
+    background:green;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #fb3958;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #C13584;
+    color: white;
+  }
+ 
+  
+
+
